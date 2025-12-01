@@ -6,3 +6,12 @@ export interface Modello extends RowDataPacket {
   PrezzoBase: number;
   FileImageSfondo: string
 }
+
+export interface OptionalsModello extends RowDataPacket {
+  ModelloID: number,
+  NomeModello: string,
+  NomeCategoria: string,
+  OptionalID: number,
+  NomeOptional: string,
+  Prezzo: number,
+}
