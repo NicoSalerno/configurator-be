@@ -41,6 +41,17 @@ CREATE TABLE TOptional (
 );
 
 -- ==============================================
+-- TABELLA USER
+-- ==============================================
+
+CREATE TABLE User (
+    userID VARCHAR(50) NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    avatar VARCHAR(50) NOT NULL
+);
+
+-- ==============================================
 -- INSERIMENTO MODELLI
 -- ==============================================
 INSERT INTO TModelli (Nome, PrezzoBase, FileImageSfondo)
